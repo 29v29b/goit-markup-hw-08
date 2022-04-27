@@ -141,11 +141,49 @@
       <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="image-list list">
-            <li class="image-list__item"><img srcset="./images/coding.jpg 1x, ./images/coding@2x.jpg 2x" src="images/coding.jpg" alt="Кодинг" width="370" height="294">
+            <li class="image-list__item">
+              <picture>
+                <source srcset="./images/coding.webp 1x, ./images/coding@2x.webp 2x" media="min-width: 1200px"
+                type="image/webp">
+                <source srcset="./images/coding.jpg 1x, ./images/coding@2x.jpg 2x" media="min-width: 1200px">
+                <source srcset="./images/coding_tablet.webp 1x, ./images/coding@2x.webp 2x" media="min-width: 768px"
+                type="image/webp">
+                <source srcset="./images/coding_tablet.jpg 1x, ./images/coding_tablet@2x.jpg 2x" media="min-width: 768px">
+                <source srcset="./images/coding_mobile.webp 1x, ./images/coding_mobile@2x.webp 2x" media="max-width: 767px"
+                type="image/webp">
+                <source srcset="./images/coding_mobile.jpg 1x, ./images/coding_mobile@2x.jpg 2x" media="max-width: 767px">
+                <img src="images/coding.jpg" alt="Кодинг" width="370" height="294">
+              </picture>
             <p class="image-list__text">Десктопные приложения</p></li>
-            <li class="image-list__item"><img srcset="./images/design.jpg 1x, ./images/design@2x.jpg 2x" src="images/design.jpg" alt="Дизайн" width="370" height="294">
+
+            <li class="image-list__item">
+              <picture>
+                <source srcset="./images/design.webp 1x, ./images/design@2x.webp 2x" media="min-width: 1200px" 
+                type="image/webp">
+                <source srcset="./images/design.jpg 1x,./images/design@2x.jpg 2x" media="min-width: 1200px">
+                <source srcset="./images/design_tablet.webp 1x, ./images/design@2x.webp 2x" media="min-width: 768px"
+                type="image/webp">
+                <source srcset="./images/design_tablet.jpg 1x, ./images/design_tablet@2x.jpg 2x" media="min-width: 768px">
+                <source srcset="./images/design_mobile.webp 1x, ./images/design_mobile@2x.webp 2x" media="max-width: 767px"
+                type="image/webp">
+                <source srcset="./images/design_mobile.jpg 1x, ./images/design_mobile@2x.jpg 2x" media="max-width: 767px">
+                <img  src="images/design.jpg" alt="Дизайн" width="370" height="294">
+              </picture>
             <p class="image-list__text">Мобильные приложения</p></li>
-            <li class="image-list__item"><img srcset="./images/color_scheme.jpg 1x, ./images/color_scheme@2x.jpg 2x" src="images/color_scheme.jpg" alt="Цветовая схема" width="370" height="294">
+            
+            <li class="image-list__item">
+              <picture>
+                <source srcset="./images/color_scheme.webp 1x, ./images/color_scheme@2x.webp 2x" media="min-width: 1200px" 
+                type="image/webp">
+                <source srcset="./images/color_scheme.jpg 1x,./images/color_scheme@2x.jpg 2x" media="min-width: 1200px">
+                <source srcset="./images/color_scheme_tablet.webp 1x, ./images/color_scheme@2x.webp 2x" media="min-width: 768px"
+                type="image/webp">
+                <source srcset="./images/color_scheme_tablet.jpg 1x, ./images/color_scheme_tablet@2x.jpg 2x" media="min-width: 768px">
+                <source srcset="./images/color_scheme_mobile.webp 1x, ./images/color_scheme_mobile@2x.webp 2x" media="max-width: 767px"
+                type="image/webp">
+                <source srcset="./images/color_scheme_mobile.jpg 1x, ./images/color_scheme_mobile@2x.jpg 2x" media="max-width: 767px">
+                <img src="images/color_scheme.jpg" alt="Цветовая схема" width="370" height="294">
+              </picture>
             <p class="image-list__text">Дизайнерские решения</p></li>
           </ul>
       </div>
@@ -158,8 +196,20 @@
       <ul class="team-list list">
         <li class="team-list__item card">
           <div class="card-thumb">
-          <img srcset="./images/product_designer.jpg 1x, ./images/product_designer@2x.jpg 2x"
-          src="images/product_designer.jpg" alt="Фото сотрудника" width="270" height="260">
+
+            <picture>
+              <source srcset="./images/product_designer.webp 1x, ./images/product_designer@2x.webp 2x" media="min-width: 1200px"
+              type="image/webp">
+              <source srcset="./images/product_designer.jpg 1x, ./images/product_designer@2x.jpg 2x" media="min-width: 1200px">
+              <source srcset="./images/product_designer_tablet.webp 1x, ./images/product_designer_tablet@2x.webp 2x" media="min-width: 768px"
+              type="image/webp">
+              <source srcset="./images/product_designer_tablet.jpg 1x, ./images/product_designer_tablet@2x.jpg 2x" media="min-width: 768px">
+              <source srcset="./images/product_designer_mobile.webp 1x, ./images/product_designer_mobile@2x.webp 2x" media="max-width: 767px"
+              type="image/webp">
+              <source srcset="./images/product_designer_mobile.jpg 1x, ./images/product_designer_mobile@2x.jpg 2x" media="max-width: 767px">
+              <img src="images/product_designer.jpg" alt="Фото сотрудника" width="270" height="260">
+            </picture>
+
           </div>
           <div class="card-content"> 
             <h3 class="team-list__subtitle">Игорь Демьяненко</h3>
@@ -186,8 +236,19 @@
 
         <li class="team-list__item card">
           <div class="card-thumb">
-          <img srcset="./images/frontend_developer.jpg 1x, ./images/frontend_developer@2x.jpg 2x"
-          src="images/frontend_developer.jpg" alt="Фото сотрудника" width="270" height="260">
+            <picture>
+              <source srcset="./images/frontend_developer.webp 1x, ./images/frontend_developer@2x.webp 2x" media="min-width: 1200px"
+              type="image/webp">
+              <source srcset="./images/frontend_developer.jpg 1x, ./images/frontend_developer@2x.jpg 2x" media="min-width: 1200px">
+              <source srcset="./images/frontend_developer_tablet.webp 1x, ./images/frontend_developer_tablet@2x.webp 2x" media="min-width: 768px"
+              type="image/webp">
+              <source srcset="./images/frontend_developer_tablet.jpg 1x, ./images/frontend_developer_tablet@2x.jpg 2x" media="min-width: 768px">
+              <source srcset="./images/frontend_developer_mobile.webp 1x, ./images/frontend_developer_mobile@2x.webp 2x" media="max-width: 767px"
+              type="image/webp">
+              <source srcset="./images/frontend_developer_mobile.jpg 1x, ./images/frontend_developer_mobile@2x.jpg 2x" media="max-width: 767px">
+              <img src="images/frontend_developer.jpg" alt="Фото сотрудника" width="270" height="260">
+            </picture>
+          
           </div>
           <div class="card-content">
           <h3 class="team-list__subtitle">Ольга Репина</h3>
@@ -214,8 +275,20 @@
 
         <li class="team-list__item card">
           <div class="card-thumb">
-          <img srcset="./images/marketing.jpg 1x, ./images/marketing@2x.jpg 2x"
-          src="images/marketing.jpg" alt="Фото сотрудника" width="270" height="260">
+
+            <picture>
+              <source srcset="./images/marketing.webp 1x, ./images/marketing@2x.webp 2x" media="min-width: 1200px"
+              type="image/webp">
+              <source srcset="./images/marketing.jpg 1x, ./images/marketing@2x.jpg 2x" media="min-width: 1200px">
+              <source srcset="./images/marketing_tablet.webp 1x, ./images/marketing_tablet@2x.webp 2x" media="min-width: 768px"
+              type="image/webp">
+              <source srcset="./images/marketing_tablet.jpg 1x, ./images/marketing_tablet@2x.jpg 2x" media="min-width: 768px">
+              <source srcset="./images/marketing_mobile.webp 1x, ./images/marketing_mobile@2x.webp 2x" media="max-width: 767px"
+              type="image/webp">
+              <source srcset="./images/marketing_mobile.jpg 1x, ./images/marketing_mobile@2x.jpg 2x"media="max-width: 767px">
+              <img src="images/marketing.jpg" alt="Фото сотрудника" width="270" height="260">
+            </picture>
+
           </div>
           <div class="card-content">
           <h3 class="team-list__subtitle">Николай Тарасов</h3>
@@ -242,8 +315,19 @@
 
         <li class="team-list__item card">
           <div class="card-thumb">
-          <img srcset="./images/ui_designer.jpg 1x, ./images/ui_designer@2x.jpg 2x"
-          src="images/ui_designer.jpg" alt="Фото сотрудника" width="270">
+            <picture>
+              <source srcset="./images/ui_designer.webp 1x, ./images/ui_designer@2x.webp 2x" media="min-width: 1200px"
+              type="image/webp">
+              <source srcset="./images/ui_designer.jpg 1x, ./images/ui_designer@2x.jpg 2x" media="min-width: 1200px">
+              <source srcset="./images/ui_designer_tablet.webp 1x, ./images/ui_designer_tablet@2x.webp 2x" media="min-width: 768px"
+              type="image/webp">
+              <source srcset="./images/ui_designer_tablet.jpg 1x, ./images/ui_designer_tablet@2x.jpg 2x" media="min-width: 768px">
+              <source srcset="./images/ui_designer_mobile.webp 1x, ./images/ui_designer_mobile@2x.webp 2x" media="max-width: 767px"
+              type="image/webp">
+              <source srcset="./images/ui_designer_mobile.jpg 1x, ./images/ui_designer_mobile@2x.jpg 2x" media="max-width: 767px">
+              <img src="images/ui_designer.jpg" alt="Фото сотрудника" width="270">
+            </picture>
+          
           </div>
           <div class="card-content">
           <h3 class="team-list__subtitle">Михаил Ермаков</h3>
