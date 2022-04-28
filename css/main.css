@@ -805,7 +805,6 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  max-width: 1600px;
 }
 
 @media screen and (min-width: 320px) {
