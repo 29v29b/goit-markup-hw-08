@@ -131,7 +131,6 @@
 .social-list {
     display: flex;
 }
-
 .social-list__link {
     font-family: 'Roboto';
     font-style: normal;
@@ -141,15 +140,11 @@
     letter-spacing: 0.02em;
     color: var(--accent-color);
     text-decoration: none;
-    margin-right: 20px;
+    
+    
 }
-.social-list__item::before {
-    content: '';
-    display: block;
-    position: absolute;
-    flex-shrink: 0;
-    width: 22px;
-    height: 0px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    transform: rotate(90deg);
+.social-list__item:not(:last-child) {
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+    padding-right: 10px;
+    margin-right: 10px;
 }

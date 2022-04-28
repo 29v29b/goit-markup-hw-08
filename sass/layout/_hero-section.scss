@@ -8,7 +8,7 @@
     text-align: center;
     max-width: 1600px;
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 320px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url('../images/hero_mobile.jpg');
         @media (min-device-pixel-ratio: 2),
@@ -43,7 +43,7 @@
                 url('../images/hero@2x.jpg');
             }
     }
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 320px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url('../images/hero_mobile.jpg');
     

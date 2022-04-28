@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
     .features-list {
         display: block;
     }
@@ -28,7 +28,7 @@
     
     .features-list__icon {
         display: flex;
-        width: 450px;
+        
         height: 120px;
         background-color: var(--filter-btn-color);
         border-radius: 4px;
