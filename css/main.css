@@ -1172,6 +1172,9 @@ body {
   .clients-list__item:nth-child(n + 4) {
     margin-bottom: 0;
   }
+  .clients-list__item:first-child, .clients-list__item:nth-child(4) {
+    margin-left: 0px;
+  }
   .clients-list__icon {
     padding: 16px 50px;
   }
@@ -1190,6 +1193,9 @@ body {
   }
   .clients-list__item:first-child {
     margin-left: 0px;
+  }
+  .clients-list__item:nth-child(4) {
+    margin-left: 30px;
   }
   .clients-list__icon {
     display: flex;

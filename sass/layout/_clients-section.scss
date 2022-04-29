@@ -47,13 +47,16 @@
 
         .clients-list__item {
             width: calc((100% - 3 * 30px) / 3);
-
             &:nth-child(odd) {
                 margin-left: 30px;
             }
         
             &:nth-child(n + 4) {
                 margin-bottom: 0;
+            }
+            &:first-child,
+            &:nth-child(4) {
+                margin-left: 0px;
             }
         }
 
@@ -79,6 +82,10 @@
         &:first-child {
             margin-left: 0px;
         }
+        &:nth-child(4) {
+            margin-left: 30px;
+        }
+
     }
 
     
