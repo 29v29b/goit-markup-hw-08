@@ -23,10 +23,10 @@
 }
 
 .mobile-menu {
-    z-index: 1;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
     width: 100%;
     height: 100vh;
     background: #ffffff;
@@ -77,8 +77,8 @@
     padding-top: 48px;
     padding-bottom: 48px;
 }
-
 .mobile-menu__item--link {
+    
     display: inline-block;
     text-decoration: none;
     font-family: 'Roboto';
@@ -99,6 +99,11 @@
 }
 .last-link {
     margin-bottom: 306px;
+}
+
+.mobile-menu__box {
+    position: sticky;
+    bottom: 0;
 }
 .mobile-menu__phone-link {
     display: inline-block;
@@ -130,8 +135,10 @@
 
 .social-list {
     display: flex;
+    
 }
 .social-list__link {
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
